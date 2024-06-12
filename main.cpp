@@ -38,8 +38,8 @@ int main(int argc, char **argv) {
   getmaxyx(stdscr, screenMaxY, screenMaxX);
   WINDOW *winScore = newwin(2, screenMaxX, 0, 0);
   WINDOW *winPlayGround = newwin(screenMaxY - 2, screenMaxX, 2, 0);
-  WINDOW *winMenu = newwin(screenMaxY - 2, screenMaxX / 4, 1,
-                           (screenMaxX - screenMaxX / 4) / 2); // testing
+  WINDOW *winMenu = newwin(screenMaxY - 2, screenMaxX / 3, 1,
+                           (screenMaxX - screenMaxX / 3) / 2); // testing
   PANEL *overlays[3];
   overlays[0] = new_panel(winMenu);
   overlays[1] = new_panel(winPlayGround);
