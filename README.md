@@ -27,13 +27,13 @@ Slither into nostalgia with Snake II: Linux Edition, a classic port straight fro
 2. **Run the Game**: Execute the compiled binary to start playing the game.
 
     ```bash
-    ./snake_game
+    ./snake.out
     ```
 
     Optionally, add the `bounded` flag to enable the bounded play area feature.
 
     ```bash
-    ./snake_game bounded
+    ./snake.out bounded
     ```
 
 ## Controls
